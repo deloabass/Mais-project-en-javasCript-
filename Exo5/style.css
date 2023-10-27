@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,500;0,700;1,400;1,500;1,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+}
+
+.container-fluid.px-0 {
+  overflow-x: hidden;
+}
+
+button:focus, button:active {
+  border: none !important;
+  outline: none !important;
+}
+
+nav ul li a.nav-link, .banner h1.presentation {
+  color: #172B4D !important;
+}
+
+nav ul li a:hover, .banner ul.list-unstyled li a:hover {
+  color: #FF6B00 !important;
+}
+
+nav ul li a:active {
+  color: #E35F00 !important;
+}
+
+.banner {
+  height: calc(100vh - 55px);
+}
+
+.banner h1.profession {
+  color: #FF6B00;
+}
+
+.banner ul.list-unstyled li, footer ul.list-unstyled li {
+  margin: 0px 10px;
+}
+
+.banner .picture img.img-fluid {
+  height: calc(100vh - 55px) !important;
+  width: 100% !important;
+}
+
+.next {
+  margin-top: -60px;
+}
+
+.next i {
+  color: #172B4D;
+  border: 1px solid #EBEFF4;
+  padding: 5px;
+  border-radius: 100%;
+}
+
+.resume a {
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border: 2px solid #172B4D;
+}
+
+.resume a, .submit button {
+  background: #FF6B00;
+  color: #fff;
+  font-weight: 600;
+  
+}
+
+.resume a:hover{
+  background: #FE984E;
+}
+
+.resume a:active {
+  background: #E35F00;
+}
+
+#recent-works .card .card-img-top {
+  height: 200px;
+}
+
+.card-body ul.list-unstyled li {
+  margin: 0px 5px 20px 5px;
+}
+
+#recent-works .card-body ul.list-unstyled li span {
+  background: #EBF0EE;
+}
+
+.card-body ul.list-unstyled li span {
+  color: #FF6B00;
+  padding: 7px 5px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.card-body a {
+  background: #36B37E;
+  color: #fff;
+}
+
+.card-body a:hover {
+  background: #C5E9DA;
+}
+
+.card-body a:active {
+  background: #28855D;
+}
+
+#about .card {
+  background: #EBF0EE;
+  border: 2px solid #C5E9DA;
+}
+
+#about .card-body ul.list-unstyled li span {
+  background: #fff;
+}
+
+#about .card .card-img-top {
+  height: 150px;
+  margin-top: 50px;
+}
+
+.form-control {
+  border: 2px solid #C5E9DA !important;
+}
+
+.form-control:focus {
+  outline: none !important;
+  border: 2px solid #FF6B00 !important;
+}
+
+@media screen and (max-width: 576px) {
+  .col-12 {
+    width: 100% !important;
+  }
+}
